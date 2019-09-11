@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_PzqAsNA6EemMecjUI71Z2g">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_V5evcNA6EemMecjUI71Z2g" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_jUOdUNA6EemMecjUI71Z2g" elementId="project0905-helloplugin-redwine.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_wQNLkNA6EemMecjUI71Z2g" elementId="id.mymenuhelloplugin" label="My Menu Hello Plugin">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_BRzEUNA7EemMecjUI71Z2g" elementId="project0905-helloplugin-redwine.handledmenuitem.showhelloworld" label="Show Hello World" command="_fWOhQNA7EemMecjUI71Z2g"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_W9TugNA7EemMecjUI71Z2g" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_fWOhQNA7EemMecjUI71Z2g" elementId="project0905-helloplugin-redwine.command.showhelloworld" commandName="Show Hello World"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_i2vaoNA7EemMecjUI71Z2g" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_nJS08NA7EemMecjUI71Z2g" elementId="project0905-helloplugin-redwine.handler.0" contributionURI="bundleclass://project0905-helloplugin-redwine/handler.ShowHelloWorldHandler" command="_fWOhQNA7EemMecjUI71Z2g"/>
+  </fragments>
+</fragment:ModelFragments>

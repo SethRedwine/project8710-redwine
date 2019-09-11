@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_z-Ki0M7AEem-jO794ehsjA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_3hI6UM7AEem-jO794ehsjA" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="__FOW0M7AEem-jO794ehsjA" elementId="project-ex-0903-mainmenu-redwine.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_JRLNcM7BEem-jO794ehsjA" elementId="project-ex-0903-mainmenu-redwine.menu.mymainmenuredwine" label="My Main Menu Redwine">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YZBWUM7BEem-jO794ehsjA" elementId="project-ex-0903-mainmenu-redwine.handledmenuitem.showhelloworld" label="Show Hello World"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_frNxkM7BEem-jO794ehsjA" elementId="project-ex-0903-mainmenu-redwine.handledmenuitem.showredwine" label="Show Redwine"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
