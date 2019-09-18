@@ -33,7 +33,7 @@ public class VisitorDemo {
 
 		while (true) {
 			System.out.println("=============================================");
-			System.out.print("Please select an option from 1-6\n");
+			System.out.print("Please select an option from 1-6: ");
 
 			switch (demo.getOption()) {
 			case 1:
