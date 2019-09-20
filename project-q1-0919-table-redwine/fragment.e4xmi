@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_1pLiQNs5EemHouMP6VAN1A">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5ToawNs5EemHouMP6VAN1A" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_-e6z4Ns5EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.partdescriptor.simpletableviewq10919redwine" label="Simple Table View Q1 0919 Redwine" iconURI="platform:/plugin/project-q1-0919-table-redwine/icons/sample.png" contributionURI="bundleclass://project-q1-0919-table-redwine/view.Viewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_jQtZUNs9EemHouMP6VAN1A" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_0TCR4Ns9EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_HEm6gNs-EemHouMP6VAN1A" elementId="id.mainmenuredwine" label="Main Menu Redwine">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_H4sp4Ns-EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.handledmenuitem.export" label="Export" command="_WhRnYNs_EemHouMP6VAN1A"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LFYBQNs-EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.handledmenuitem.packageclassmethodcounter" label="Package/Class/Method Counter" command="_YALOUNs_EemHouMP6VAN1A"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_RPyfoNs_EemHouMP6VAN1A" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_WhRnYNs_EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.command.export" commandName="Export"/>
+    <elements xsi:type="commands:Command" xmi:id="_YALOUNs_EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.command.counts" commandName="Counts"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cz-UgNs_EemHouMP6VAN1A" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_fLRjENs_EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.handler.0" contributionURI="bundleclass://project-q1-0919-table-redwine/handler.ExportHandler" command="_WhRnYNs_EemHouMP6VAN1A"/>
+    <elements xsi:type="commands:Handler" xmi:id="_iiy4gNs_EemHouMP6VAN1A" elementId="project-q1-0919-table-redwine.handler.1" contributionURI="bundleclass://project-q1-0919-table-redwine/handler.CounterHandler" command="_YALOUNs_EemHouMP6VAN1A"/>
+  </fragments>
+</fragment:ModelFragments>

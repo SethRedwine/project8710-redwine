@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="projectq10919tableredwine">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/project-q1-0919-table-redwine/css/default.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="project-q1-0919-table-redwine.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>
