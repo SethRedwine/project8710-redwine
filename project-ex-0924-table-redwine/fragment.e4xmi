@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_A5EmMN8sEemJIMdN-LyRlQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Jz5zMN8sEemJIMdN-LyRlQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_Xq4xIN8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.command.addpersoncommand" commandName="Add Person Command"/>
+    <elements xsi:type="commands:Command" xmi:id="_eZSi0N8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.command.deletepersoncommand" commandName="Delete Person Command"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KKxbEN8sEemJIMdN-LyRlQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_gfjrwN8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.handler.0" contributionURI="bundleclass://project-ex-0924-table-redwine/handler.AddPersonHandler" command="_Xq4xIN8sEemJIMdN-LyRlQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_kMvvMN8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.handler.1" contributionURI="bundleclass://project-ex-0924-table-redwine/handler.DelPersonHandler" command="_eZSi0N8sEemJIMdN-LyRlQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KgIAAN8sEemJIMdN-LyRlQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_oouyUN8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.partdescriptor.simpletableaddingdeletingredwine" label="Simple Table Adding Deleting Redwine" iconURI="platform:/plugin/project-ex-0924-table-redwine/icons/sample.png" contributionURI="bundleclass://project-ex-0924-table-redwine/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="__u9uEN8sEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_B0fQIN8tEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.handledmenuitem.add" label="Add" command="_Xq4xIN8sEemJIMdN-LyRlQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_FszlgN8tEemJIMdN-LyRlQ" elementId="project-ex-0924-table-redwine.handledmenuitem.delete" label="Delete" command="_eZSi0N8sEemJIMdN-LyRlQ"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
