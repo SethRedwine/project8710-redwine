@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_d5CKcAHTEeqgypajL0v07g">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5Jpb8AHTEeqgypajL0v07g" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_AnV8kAHUEeqgypajL0v07g" elementId="project-ex-1031-pattern-match-redwine.command.simplesearchengine" commandName="Simple Search Engine"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_C_69gAHUEeqgypajL0v07g" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_IdUaUAHUEeqgypajL0v07g" elementId="project-ex-1031-pattern-match-redwine.handler.0" contributionURI="bundleclass://project-ex-1031-pattern-match-redwine/handler.HandlerCodePatternMatch" command="_AnV8kAHUEeqgypajL0v07g"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_eSNqAAHUEeqgypajL0v07g" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_jMnugAHUEeqgypajL0v07g" elementId="project-ex-1031-pattern-match-redwine.partdescriptor.simpleviewpatternmatchredwine" label="Simple View Pattern Match Redwine" iconURI="platform:/plugin/project-ex-1031-pattern-match-redwine/icons/sample.png" contributionURI="bundleclass://project-ex-1031-pattern-match-redwine/view.SimpleTableViewer"/>
+  </fragments>
+</fragment:ModelFragments>
